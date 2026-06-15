@@ -1,0 +1,7 @@
+## Chapter 15. Identification Without Do-Calculus
+
+**15.1 Notation purge.** $P(y \mid \mathrm{do}(x))$ is simply $P(Y(x){=}y)$; "assignment" replaces the operator; the three rules are replaced by 14.2 $+$ 14.1 $+$ 15.2 (the complete rule-based fragment being the po-calculus [verify]).
+
+**15.2 Theorem (the g-formula — extended, static, sequential).** Under 14.2's hypotheses, the joint law of the SWIG solution — natural treatments and potential outcomes together — is the product of the *factual* conditionals with assigned values substituted (extended form, RR (37)); marginalizing the childless random halves:
+$$P(V_B(a) = v_B) \;=\; \prod_{i : V_i \in B} P(v_i \mid \mathrm{pa}_i)\Big|_{\text{assignments substituted}}, \qquad B = V \setminus A,$$
+with the sequential/dynamic case by iteration along the time order (plug the regime $g$ into the assigned slots). $\square$ **Robins' criterion** (RR Thm. 22): exact validity with hidden variables, SWIG-checkable: $Y(\bar a) \perp A_k(\bar a_{k-1}) \mid \bar L_k(\cdot), \bar A_{k-1}$ for each $k$. **Universality:** every identifiable interventional functional decomposes into iterated g-formula and marginalization steps (Tian–Pearl, via RR §4.1.2) — the do-free stack is not a fragment. **Adjustment corollary:** $Z$ d-separates $W$ from $Y(w)$ in the SWIG $\Rightarrow P(Y(w)) = \sum_z P(Y \mid w, z)\, P(z)$ — ignorability read off a *derived* graph, then ordinary probability.

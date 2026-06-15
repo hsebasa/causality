@@ -1,0 +1,7 @@
+## Chapter 10. Counterfactual Outcomes
+
+**10.1 Definition.** For a protocol $\iota$ feasible in the frame and a unit $u$: $Y(\iota)(u) := \pi_Y(\sigma^{\iota}(u))$ — the $Y$-coordinate of the modified theory's solution at the *same* unit. A value, not a random variable; natural value $Y(u) = Y(\varnothing)(u)$. The **schedule** $u \mapsto (Y(\iota)(u))_{\iota}$ puts all worlds on one domain — the deterministic multiworld, no measure in sight. (Event-valued generalization: potential latencies $\tau_E(\iota)(u)$.)
+
+**10.2 Theorem (consistency).** *If $W(u) = w$ then $Y(\mathrm{do}\,W{=}w)(u) = Y(u)$ for all $Y$.* *Proof:* induct along a topological order: mechanisms upstream of $W$ are untouched with identical inputs; at $W$ the surgered constant outputs $w = W(u)$; downstream mechanisms receive identical inputs. $\square$ Abstract form: *a law agreeing with $f$ on the realized orbit changes nothing* — the form used by revealability (11.1).
+
+**10.3 Theorem (SUTVA is a factorization property).** In a population theory (variables $V \times I$, exogenous blocks $U_i$): no-interference $\iff$ no cross-unit edges in the derived graph $\iff$ the population arena is a product of unit arenas. $\square$ Interference is modeled by *not* having the product — potential outcomes then index on the full treatment vector automatically. Exclusion restrictions are automatic from minimal labels (recursive substitution).

@@ -1,0 +1,5 @@
+## Chapter 19. The Proving Arena
+
+**19.1 Definition (the dictionary).** States $=$ deductively closed theories; law $=$ one-step saturation (apply every inference rule once); events $=$ positive assertions ("$\varphi$ is established"); **latency $=$ proof depth; unprovability $=$ absence** — the production stance doing real work: what is never derived simply never occurs. **Proposition:** the saturation law is inflationary ($\Gamma \subseteq f(\Gamma)$), so reachability is antisymmetric — AC is a *theorem* here (4.2b). **Proposition (continuity $=$ finitariness):** the law is join-preserving iff the inference rules are finitary; the $\omega$-rule is the discontinuous law — Example 1.15 in proof-theoretic clothing.
+
+**19.2 Labels and interventions.** Labelled (ATMS-style) arenas track *sets of support*: a theorem with several derivations carries several labels — overdetermination of theorems handled at the token level. Axiom-removal interventions have **one-signed effects**: deleting an axiom never adds theorems (monotone deletion) — a frame whose every surgery moves the world in one direction.

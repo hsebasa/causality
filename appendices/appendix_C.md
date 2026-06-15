@@ -1,0 +1,1 @@
+**C. Deferred Proofs.** 1.11, 1.14; 3.2; 4.5 (ultraproduct), 4.6; 8.2 (full); 12.2\*; 13.2; 14.2 (from bare per-setting independence); 16.3 (the independence step); minimal realization; finite-arena classification. Full versions currently in the corpus documents (map: App. D).

@@ -1,0 +1,9 @@
+## Chapter 16. Observation and Proxies
+
+**16.1 Access; association; identifiability.** Each node carries an access type (intervenable? $\times$ observable? — all four cells occur; well-typedness is write-side, identifiability read-side). Through a latent $A$: $P(C \mid D) = \int P(C \mid a)\, \mu(da \mid D)$ — association is **deduction $\circ$ abduction**. **Definition:** $\Psi$ is *identified from* $(\mathcal{G}_0, O)$ iff $\Psi(M) = \Psi(M')$ whenever $M, M'$ induce the same observed laws $P(V_O(\iota))$ for every feasible $\iota$.
+
+**16.2 Proposition (qualitative invisibility).** Same graph, same observation structure, same frame — identified in one model, not the other; only the measure differs (proxy noise flip $0$ vs $1/2$). Proxy-identifiability is a measured-layer property; proximal "completeness" $=$ injectivity of the deductive kernel $=$ abducibility. **Corollary (class-relativity of identification).** The identifiability verdict is a function of the *declared model class*, not of the anatomy alone: any complete identification algorithm must take the class as an input — anatomy, observation structure, and frame underdetermine the answer.
+
+**16.3 Theorem (relocation/decomposition).** Latent $A$; observed $D, B$ with proxy $C$; sufficiency $\mathrm{pa}(B) = \{D\}$; per-setting independence; no other $D$–$B$ confounding. Then $P(B(d)) = P(B \mid d)$, and
+$$P(B(a) = b) \;=\; \sum_d P(D(a) = d)\, P(B \mid D = d):$$
+the entire unidentified content is the single kernel $P(D(a))$, resolved in three tiers — bounds; known/injective proxy-kernel inversion (effect restoration, Kuroki–Pearl [verify]); two proxies $+$ completeness (proximal, Miao–Geng–Tchetgen Tchetgen [verify]). *Proof:* App. C. Partial observation of $A$ is the coarsening reading: identified iff the functional factors through the coarsening (coarsening-at-random as the measured condition [verify]).
