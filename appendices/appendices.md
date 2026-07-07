@@ -7,4 +7,6 @@
 - E. Machine Verification — `appendix_E.md`
 - F. Verification Ledger — `appendix_F.md`
 - G. The Internal Causal Language — `appendix_G.md`
-- H. The Causal Extension — `appendix_H.md`
+- H. Nested Causal Claims: Realization and Verdict — `appendix_H.md`
+- I. Graded Realization: The Language over a Quantale — `appendix_I.md`
+- J. The Regime Arena: Causing Mechanisms — `appendix_J.md`
