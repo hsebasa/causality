@@ -8,4 +8,3 @@
 - Chapter 4. Order: Cycles, AC, and Reconstruction — `chapter_4.md`
 - Chapter 5. Geometry: One Matrix, Three Semirings — `chapter_5.md`
 - Chapter 6. Causality over a Quantale — `chapter_6.md`
-- Chapter 7. Completeness and Decidability — `chapter_7.md`

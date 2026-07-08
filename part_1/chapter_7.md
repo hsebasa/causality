@@ -1,7 +1,0 @@
-## Chapter 7. Completeness and Decidability
-
-**7.1 Theorem (Kozen) [verify].** An equation in the signature $(\bot, 1, \vee, ;, {}^{\ast})$ — the operations of the algebra of laws (*The Algebra of Laws* §§1, 4–5) — holds in every relational causal structure iff it is derivable from the Kleene algebra axioms; the equational theory is decidable (PSPACE). So the positive causal algebra derives *every* semantically valid identity of its signature. Adding complement crosses into Tarski's relation algebras: not finitely axiomatizable, equationally wild [verify]. **Refusing absences is precisely what keeps the algebra of causation completely axiomatizable.**
-
-**7.2 The boundary (C1, C2).** With "eventually" as an *operation inside the algebra* (the star), completeness holds. With "eventually" as a *quantifier over the algebra* ($\exists n$, first-order): **C1** — compactness fails for production (finitely many latency bounds are satisfiable while their limit is not: ultraproducts with growing latencies); **C2** — joint production interprets arithmetic, so first-order validity is not recursively enumerable. Same notion, two logical homes, opposite fates.
-
-**7.3 Decidability separation.** The bare theory of one law is decidable [verify: Ehrenfeucht]; the experimental theory (ETC: law $+$ intervention repertoire) is undecidable; the one-intervener interpretation embeds category-style compositional reasoning in ETC (bi-interpretability open, Ch. 23). Reading: *causation is simple; experimentation is where undecidability enters.*

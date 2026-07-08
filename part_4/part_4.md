@@ -1,6 +1,7 @@
-# PART IV — MATHEMATICS AS CAUSAL THEORY
+# PART IV — AGGREGATION: MEASURE AND IDENTIFICATION
 
-- Chapter 19. The Proving Arena — `chapter_19.md`
-- Interlude. Causation and the Quantifiers — `causation_and_the_quantifiers.md`
-- Chapter 20. Identification as Reverse Mathematics — `chapter_20.md`
-- Chapter 21. Determination versus Production — `chapter_21.md`
+- Chapter 16. The Translation Theorem — `chapter_16.md`
+- Chapter 17. SWIG Markov and Modularity — `chapter_17.md`
+- Chapter 18. Identification Without Do-Calculus — `chapter_18.md`
+- Chapter 19. Observation and Proxies — `chapter_19.md`
+- Chapter 20. A Complete Worked Identification — `chapter_20.md`

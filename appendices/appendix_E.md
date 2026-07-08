@@ -1,1 +1,1 @@
-**E. Machine Verification.** The two-period computation in exact rationals (code $+$ outputs; every number of Ch. 17 verified identically, including the dynamic regime); protocol: every numerical claim in the book is machine-verified before print; Lean stubs as they exist.
+**E. Machine Verification.** The two-period computation in exact rationals (code $+$ outputs; every number of Ch. 20 verified identically, including the dynamic regime); protocol: every numerical claim in the book is machine-verified before print; Lean stubs as they exist.

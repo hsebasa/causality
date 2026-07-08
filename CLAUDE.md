@@ -12,20 +12,20 @@ cross-references, not running anything.
 ## Layout
 
 - `front_matter.md` — title, conventions, audience reading paths.
-- `part_1/ … part_5/` — `part_N.md` is the part title **and a contents list** for that part;
+- `part_1/ … part_6/` — `part_N.md` is the part title **and a contents list** for that part;
   chapters are `chapter_K.md`. Standalone sections (interludes) get their own descriptively
   named file, e.g. `part_1/category_of_causal_structures.md`.
-- `appendices/appendix_A.md … appendix_F.md` — proofs (C), proof→location map (D),
-  citation ledger (F).
+- `appendices/appendix_A.md … appendix_H.md` — proofs (C), proof→location map (D),
+  citation ledger (F); G–H park seed chapters (the logical boundary; related frameworks).
 
 ## House style (match it when editing)
 
 - Numbered items with **bold lead-ins**: `**1.5 Definition (…).**`, `**§1 Definition (…).**`.
-  Chapters number `K.x`; appendices `A–F`; standalone interludes use a self-contained scheme
+  Chapters number `K.x`; appendices `A–H`; standalone interludes use a self-contained scheme
   (e.g. `§1–§n`) so numbering never collides across files.
 - Proofs are inline when ≤ 3 lines, otherwise deferred to App. C; close every proof with `$\square$`.
-- Starred (`*`) sections are optional categorical material. `[verify]` marks a citation gated by
-  the ledger in App. F.
+- Starred (`*`) sections and chapters are optional material (categorical or graded). `[verify]`
+  marks a citation gated by the ledger in App. F.
 - Terse, dense prose. Cross-reference by item number ("Def. 1.5", "12.1", "App. C").
 
 ## When you edit — keep the indexes in sync (IMPORTANT)
