@@ -1,6 +1,6 @@
 ## Chapter 5. Geometry: One Matrix, Three Semirings
 
-**5.1 The latency quasi-metric.** $d(x, y) := \min\{n : f^n(x) = y\} \in \mathbb{N} \cup \{\infty\}$. Then $d(x,x) = 0$; $d(x,z) \leq d(x,y) + d(y,z)$ (concatenate runs); and asymmetry is generic — $d(x,y) < \infty = d(y,x)$ — *the asymmetry of causation realized as asymmetry of distance*. Future cones are the balls; orbit segments are the geodesics (the only paths the law affords, automatically shortest). **Recovery:** the law is the unit sphere — $f(x)$ is the unique point at distance exactly $1$ (sharp case under AC). $\square$
+**5.1 The latency quasi-metric.** $d(x, y) := \min\{n : f^n(x) = y\} \in \mathbb{N} \cup \{\infty\}$ — the $\min$-quotient of the latency-set space (*The Algebra of Laws* §9). Then $d(x,x) = 0$; $d(x,z) \leq d(x,y) + d(y,z)$ (concatenate runs); and asymmetry is generic — $d(x,y) < \infty = d(y,x)$ — *the asymmetry of causation realized as asymmetry of distance*. Future cones are the balls; orbit segments are the geodesics (the only paths the law affords, automatically shortest). **Recovery:** the law is the unit sphere — $f(x)$ is the unique point at distance exactly $1$ (sharp case under AC). $\square$
 
 **5.2 Theorem (one matrix, three semirings).** Encode the law as a matrix $A$ indexed by states; the Kleene star $A^{\ast} = \bigvee_n A^{n}$ computes, per semiring:
 
